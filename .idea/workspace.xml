@@ -5,46 +5,78 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aa0f1235-9af0-4179-b2e9-7f013c779a72" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tta/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/tta/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/comtta/PageObjectModel/dashboardpage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/comtta/PageObjectModel/loginPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/comtta/base/commontoallpage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/comtta/driver/driverManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/comtta/utils/propertyreader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/comtta/basetest/commontoAllTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/comtta/tests/loginInvalidCred.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/comtta/tests/logintest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tta/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/comtta/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/tta/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/comtta/AppTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
 }</component>
   <component name="ProjectId" id="2ewo9CjpVpmLrlu9PMAOnDNOObC" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.App.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.AppTest.executor&quot;: &quot;Run&quot;,
-    &quot;Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.App.executor": "Run",
+    "JUnit.AppTest.executor": "Run",
+    "JUnit.loginInvalidCred.executor": "Run",
+    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "TestNG.C:/Users/manas/IdeaProjects/SeleniumWebAutomationFramework/src/test/java/com/tta/testXMLs/testng.xml.executor": "Run",
+    "TestNG.C:/Users/manas/IdeaProjects/SeleniumWebAutomationFramework/src/test/java/comtta/testXMLs/testnginvalidcred.xml.executor": "Run",
+    "TestNG.C:/Users/manas/IdeaProjects/SeleniumWebAutomationFramework/testng.xml.executor": "Run",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/manas/IdeaProjects/SeleniumWebAutomationFramework",
+    "project.structure.last.edited": "SDKs",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
   }
-}</component>
-  <component name="RunManager" selected="Application.App">
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\manas\IdeaProjects\SeleniumWebAutomationFramework" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\manas\IdeaProjects\SeleniumWebAutomationFramework\src\test\java\comtta\testXMLs" />
+      <recent name="C:\Users\manas\IdeaProjects\SeleniumWebAutomationFramework\src\test\java\com\tta\testXMLs" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.C:/Users/manas/IdeaProjects/SeleniumWebAutomationFramework/src/test/java/comtta/testXMLs/testnginvalidcred.xml">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.tta.App" />
       <module name="SeleniumWebAutomationFramework" />
@@ -58,25 +90,58 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AppTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="loginInvalidCred" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SeleniumWebAutomationFramework" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.tta.*" />
+          <option name="PATTERN" value="comtta.tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.tta" />
-      <option name="MAIN_CLASS_NAME" value="com.tta.AppTest" />
+      <option name="PACKAGE_NAME" value="comtta.tests" />
+      <option name="MAIN_CLASS_NAME" value="comtta.tests.loginInvalidCred" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C:/Users/manas/IdeaProjects/SeleniumWebAutomationFramework/src/test/java/com/tta/testXMLs/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumWebAutomationFramework" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/java/com/tta/testXMLs/testng.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C:/Users/manas/IdeaProjects/SeleniumWebAutomationFramework/src/test/java/comtta/testXMLs/testnginvalidcred.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumWebAutomationFramework" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/java/comtta/testXMLs/testnginvalidcred.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C:/Users/manas/IdeaProjects/SeleniumWebAutomationFramework/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumWebAutomationFramework" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.C:/Users/manas/IdeaProjects/SeleniumWebAutomationFramework/src/test/java/comtta/testXMLs/testnginvalidcred.xml" />
+        <item itemvalue="JUnit.loginInvalidCred" />
+        <item itemvalue="TestNG.C:/Users/manas/IdeaProjects/SeleniumWebAutomationFramework/testng.xml" />
+        <item itemvalue="TestNG.C:/Users/manas/IdeaProjects/SeleniumWebAutomationFramework/src/test/java/com/tta/testXMLs/testng.xml" />
         <item itemvalue="Application.App" />
-        <item itemvalue="JUnit.AppTest" />
       </list>
     </recent_temporary>
   </component>
